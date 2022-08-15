@@ -34,8 +34,9 @@ def cartesian(firstElement, secondElement):
   for i in firstElement:
     for j in secondElement:
       #no element repetition
-      if i+j not in result:
-        result.append(i+j);
+      string = f"({i},{j})";
+      if string not in result:
+        result.append(string);
   
   return result;
 
