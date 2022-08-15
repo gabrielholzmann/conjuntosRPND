@@ -1,5 +1,8 @@
-#TRABALHO 1 - CONJUNTOS
 #Gabriel Holzmann Machado de Oliveira
+
+""" Enunciado: Programa em Python no qual proporciona o resultado das operações de União(U), Interseção(I),
+Diferença(D), Produto Cartesiano(C), por meio da leitura de um arquivo .txt contendo na primeira linha
+a quantidade de operações, nas próximas a sequência de Operação, Conjunto 1 e Conjunto 2. """
 
 def union(firstElement, secondElement):
   result = firstElement.copy();
